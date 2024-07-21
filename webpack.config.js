@@ -3,9 +3,11 @@ const path = require('node:path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: './index.js',
+    clean: true,
   },
   module: {
     rules: [
@@ -44,4 +46,10 @@ module.exports = {
       filename: './index.html',
     })
   ],
+  resolve: {
+    extensions: ['.js']
+  },
+  optimization: {
+    minimize: true
+  },
 };

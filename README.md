@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/xo8a4n3b7rhc6di3/branch/master?svg=true)](https://ci.appveyor.com/project/nagraiv/symbols-iterators-generators/branch/master)
+
 # Домашнее задание к лекции «Символы, итераторы, генераторы» [ссылка](https://github.com/netology-code/ajs-homeworks/tree/ajs8/symbols-iterators-generators)
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.

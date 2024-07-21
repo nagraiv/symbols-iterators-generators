@@ -35,8 +35,10 @@ export default class Team {
 
     // задача №2
     *[Symbol.iterator]() {
-        // это генератор
-        // и здесь есть доступ к this
-        // остаётся лишь правильно написать yield
+        let i = 0;
+        const membersArray = this.toArray();
+        while (i < membersArray.length) {
+            yield membersArray[i++];
+        }
     }
 }
